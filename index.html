@@ -10,10 +10,20 @@
   <body>
     <div class="box">
       <h1>To Do List</h1>
-      <form action="">
+      <form>
         <input type="text" placeholder="Name..." />
-        <button>Add item</button>
+        <button type="submit">Add item</button>
       </form>
+      <ul class="ul">
+        <li>
+          <p>Salom</p>
+          <span
+            ><i class="like">✅</i> <i class="edit">🔚</i>
+            <i class="delete">❌</i></span
+          >
+        </li>
+      </ul>
+      <button id="clear">Clear Items</button>
     </div>
     <script src="./main.js"></script>
   </body>
